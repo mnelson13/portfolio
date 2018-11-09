@@ -1,0 +1,62 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+nav.nav-center ul {
+    text-align: center;
+}
+nav.nav-center ul.mainNav li {
+    display: inline;
+    float: none;
+}
+nav.nav-center ul.iconNav {
+   position: absolute;
+   right: 0;
+   top: 5px;
+}
+nav.nav-center ul.mainNav li a,
+nav.nav-center ul.iconNav li a  {
+    display: inline-block;
+}
+.logoImg,
+.copyright {
+    float: left;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.parallaxText {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    text-shadow: 2px 2px 8px #969393;
+    font-family: 'Halant', serif;
+}
+h2, h4 {
+    font-family: 'Halant', serif;
+}
+.parallax-container {
+    height: 500px;
+}
+.portfolioRow {
+    padding-top: 30px;
+    
+}
+.skills {
+    font-size: 45px;
+    padding: 10px;
+}
+.card{
+    width: 300px;
+    height: 500px;
+}
+.copyright {
+    font-size: 12px;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+main {
+    flex: 1 0 auto;
+}
