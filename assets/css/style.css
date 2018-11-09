@@ -59,6 +59,9 @@ h2, h4 {
     left: 20px;
     bottom: 5px;
 }
+.lastRow {
+    padding-bottom: 30px;
+}
 .copyright {
     font-size: 12px;
 }
@@ -69,6 +72,9 @@ body {
   }
 main {
     flex: 1 0 auto;
+}
+.hideDiv {
+    visibility: hidden;
 }
 
 @media screen and (max-width: 980px) {
@@ -88,6 +94,9 @@ main {
         
     }
     .line {
+        display: none;
+    }
+    .hideDiv {
         display: none;
     }
 }
