@@ -37,6 +37,9 @@ nav.nav-center ul.iconNav li a  {
 h2, h4 {
     font-family: 'Halant', serif;
 }
+#bio {
+    font-size: 14px;
+}
 .parallax-container {
     height: 500px;
 }
