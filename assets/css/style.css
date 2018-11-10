@@ -23,6 +23,9 @@ nav.nav-center ul.iconNav li a  {
     margin-left: 15px;
     margin-top: 5px;
 }
+.github {
+    padding-top: 4px;
+}
 
 .parallaxText {
     position: absolute;
@@ -64,6 +67,9 @@ h2, h4 {
 }
 .copyright {
     font-size: 12px;
+}
+.card-image:hover{
+    cursor: pointer;
 }
 body {
     display: flex;
